@@ -8,6 +8,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 .box {
@@ -16,7 +17,7 @@ img {
     border: 1px solid #bebebe;
 }
 
-.fl1 > div {
+.fl1 {
     display: flex;
     flex-direction: column;
 }
@@ -25,10 +26,12 @@ img {
     display: flex;
     flex-direction: row;
 }
-.fram1{
-    width: 20%;
 
+.fram1 {
+    width: 20%;
+    height: 100px;
 }
+
 
 
 
